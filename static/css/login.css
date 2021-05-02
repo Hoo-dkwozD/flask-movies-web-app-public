@@ -1,0 +1,103 @@
+/* Start of general styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    font-family: "Lato";
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* End of general styles */
+
+/* Start of login section */
+
+.login-text {
+    color: white;
+    text-align: center;
+    font-size: 130px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.login-text-desc {
+    font-size: 24px;
+    width: 50%;
+    text-align: center;
+    color: #cecece;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: #00000049;
+    letter-spacing: 0em;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #00000049;
+    letter-spacing: 0em;
+}
+
+::-ms-input-placeholder {
+    color: #00000049;
+    letter-spacing: 0em;
+}
+
+
+.password-box {
+    width: 450px;
+    height: 8vh;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.651);
+    border: none;
+    font-size: 18px;
+    color: #000000c4;
+    padding: 0px 15px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.password-btn {
+    width: 8vh;
+    height: 8vh;
+    font-size: 18px;
+    border: none;
+    font-family: "FontAwesome";
+    border-radius: 25px;
+}
+
+.password-btn:hover {
+    opacity: 0.7;
+    cursor: crosshair;
+}
+
+.return-btn {
+    padding: 20px 35px;
+    background-color: #ffdd97;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.return-btn:hover {
+    cursor: crosshair;
+}
+
+/* End of error 404 section*/

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMDB Search API</title>
+    <link href="../static/css/fonts.css" rel="stylesheet" />
+    <link href="../static/css/login.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page">
+        <h1 class="login-text">Authentication</h1>
+        <p class="login-text-desc">
+            {{ pwd_text }}
+        </p>
+        <form action="/logged" class="password-form" method="POST">
+            <input 
+                type="password" 
+                placeholder="Type password here"
+                class="password-box"
+                name="user_password"
+                required
+            />
+            <input type="submit" value="&#x1F512;" class="password-btn" />
+        </form>
+        <a href="/" class="return-btn">Homepage</a>
+    </div>
+</body>
+</html>
